@@ -1,0 +1,234 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+}
+.container{
+    margin: 5% 10%;
+    background-color: white;
+}
+.inner-container{
+    padding: 10em;
+}
+.text-line {
+    font-size: 2.25em;
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.body-headline { 
+    margin: 2em 0em;
+}
+.headline, .h1-stelling{
+    font-size: 2.25em;
+    color: rgb(1, 180, 220);
+    font-weight: bold;
+    margin: 0px;
+}
+.body-block {
+    display: flex;
+    flex-direction: row;
+}
+.block-points {
+    width: 800px;
+}
+.point {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0%;
+}
+
+.point-text, .p-stelling {
+    font-size: 1.75em;
+    color: black;
+}
+
+.point-text p{
+    margin: 0px 1em;
+}
+
+.block-button {
+    width: 700px;
+}
+
+.button, #button {
+    margin-top: 15%;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+    font-size: 2.25em;
+    font-weight: bold;
+    padding: 0.7em 2.5em;
+    border-radius: 5%;
+    float: right;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: rgb(1, 180, 220);
+    transition-duration: 0.2s;
+}
+
+.body-block-bottem {
+    padding: 5em 10em;
+    background-color: rgb(249, 249, 249);
+    border-top: 2px dotted ;
+}
+
+.text-body {
+    font-size: 1.75em;
+    color: black;
+}
+
+.container-bottom {
+    padding: 5em 10em;
+    background-color: rgb(1, 180, 220);
+}
+
+/* Stemwijzer */
+.progresbar {
+    height: 0.5em;
+    background-color: rgb(1, 180, 220);
+    width: 3%;
+}
+
+.inner-container-stelling{
+    padding: 1em 10em;
+}
+
+.container-backtopage img{
+    margin: 2em;
+}
+.container-backtopage img:hover{
+    margin: 2em 1.5em;
+    transition-duration: 0.5s;
+}
+
+.h1-stelling, .p-stelling, .button-stelling {
+    padding: 1em 0em;
+
+}
+
+.button-stelling {
+    margin: 1em 0em;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+    font-size: 2.25em;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.button-stelling:hover {
+    background-color: rgb(1, 180, 220);
+    transition-duration: 0.2s;
+}
+
+#btnEens{
+    margin: 0em 0.5em 0em 0em;
+}
+#btnGeen, #btnOneens {
+    margin: 0em 0.5em;
+}
+#btnNext, #parties {
+    background-color: transparent;
+    color: gray;
+}
+
+button#Next {
+    /* float: right; */
+    position: relative;
+    left: 75%;
+}
+
+.row2buttons {
+    display: flex;
+}
+
+.button-stelling-extra {
+    margin: 1em 2em 1em 0em;
+    background-color: rgb(1, 180, 220);
+    border-color: transparent;
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    max-height: 3em;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+#partyinfo {
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+#parties {
+    color: black;
+    margin: 0em 0.5em 0em -2em;
+}
+
+/* Extra */
+#stelling-title{
+    padding: 2em 10em;
+    background-color: rgb(231, 234, 235);
+}
+
+#wrapper {
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    font-size: 24px;
+}
+#wrapper div {
+    padding: 2% 7%;
+}
+
+#wrapper div details summary {
+    width: 300px;
+}
+
+/* uitkomst */
+
+.uitkomst-stemwijzer {
+    display: flex;
+}
+
+.uitkomst-stemwijzer #stelling-uitkomst {
+    margin: 6em;
+}
+
+img.img_uitkomst {
+    width: 200px;
+    /* border: 2px solid blue; */
+    border-radius: 100%;
+}
+
+/* extra */
+ol, ul {
+    list-style: none;
+}
+
+.themes .themes__opinions .opinions__item {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #979797;
+}
+
+ul.opinions__list.js-selection {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+li.opinions__item {
+    width: 20em;
+}
