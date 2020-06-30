@@ -2,9 +2,9 @@ var quest = 0;
 var answers = [];
 var progressbar_count = 0;
 
-var true = "eens";
-var geen = "geen";
-var false = "oneens";
+var yes = "eens";
+var none = "geen";
+var no = "oneens";
 
 extra_stelling.style.display = "none";
 
@@ -31,7 +31,7 @@ function vote(voting) {
         alert("LET OP! U kunt na het antwoord invullen van deze vraag niet meer terug.");
 
         btntrue.style.display = "none";
-        btnGeen.style.display = "none";
+        btnneutral.style.display = "none";
         btnfalse.style.display = "none";
         btnnext.style.display = "none";
         extra();
